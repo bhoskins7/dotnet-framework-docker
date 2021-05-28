@@ -7,6 +7,6 @@ RUN powershell -command Expand-Archive -Path C:\opt\elastic\apm.zip -Destination
 RUN rm C:\opt\elastic\apm.zip
 
 ENV DOTNET_STARTUP_HOOKS=C:/opt/elastic/ElasticApmAgent_1.9.0/ElasticApmAgentStartupHook.dll
-ENV ELASTIC_APM_SERVER_URLS=https://bhoskins.apm.westus2.azure.elastic-cloud.com
-ENV ELASTIC_APM_SECRET_TOKEN=2PEqCucwCrudwLdQhF
-ENV ELASTIC_APM_SERVICE_NAME=iis-aspcore-framework
+ENV ELASTIC_APM_SERVER_URLS=
+ENV ELASTIC_APM_SECRET_TOKEN=
+ENV ELASTIC_APM_SERVICE_NAME=
